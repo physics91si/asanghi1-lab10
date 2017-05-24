@@ -4,7 +4,7 @@ class Set:
     def __init__(self):
         self.set=[]
     def __repr__(self):
-        return str(self.set)
+        return string(self.set)
         
     def Contains(self,element):
         if element in self.set:

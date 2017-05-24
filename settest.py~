@@ -12,6 +12,6 @@ set2.Add(6)
 print(set1.Size())
 print(set2.Size())
 print(set1&set2)
-print(set1|set2)
-print(set1-set2)
+print(list(set1|set2))
+print(list(set1-set2))
 
